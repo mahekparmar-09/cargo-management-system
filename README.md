@@ -54,3 +54,15 @@ A Cargo Management System designed to efficiently manage cargo operations such a
 ## 🎯 Project Objective
 
 This system is designed to simplify cargo logistics operations by providing an easy-to-use interface for managing cargo records, tracking movements, and maintaining a complete history of shipments.
+
+
+## Database Design
+
+The Cargo Management System uses MySQL as its backend database to manage and organize cargo port operations efficiently. The database is designed using a relational model with multiple interconnected tables to maintain data integrity and support seamless cargo management processes.
+
+The database handles key operations such as user and role management, ship tracking, container management, cargo handling, cargo movement monitoring, and security logging. Relationships between tables are maintained using foreign key constraints to ensure consistency and accuracy of data.
+
+To enhance functionality and security, the database incorporates advanced SQL concepts including Stored Procedures, Functions, Triggers, and Role-Based Access Control (RBAC). These features automate critical operations, enforce business rules, improve data validation, and provide secure access to different user roles within the system.
+
+This database design demonstrates practical implementation of database management principles, normalization techniques, data security mechanisms, and advanced SQL programming concepts.
+
